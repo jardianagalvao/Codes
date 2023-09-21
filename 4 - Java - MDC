@@ -1,5 +1,5 @@
 
-public class MMC_ {
+public class MDC_ {
 
 	public static void main(String[] args)  {
         int asd = 30, bsd = 40; 
