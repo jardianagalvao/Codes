@@ -19,6 +19,7 @@
     // Exibir a sequência na página
     document.getElementById("sequencia").innerHTML = "Sequência de Fibonacci: " + seq.join(", ");
 }
+
 </script>
 <body>
 	<h1>Sequência de Fibonacci</h1>
