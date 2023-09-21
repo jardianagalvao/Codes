@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class Contagem_ {
 
 	public static void main(String[] args){
