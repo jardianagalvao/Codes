@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fibonacci</title>
+</head>
+<script type="text/javascript">
+    function Sequenciagerar() {
+    // Obter o valor de n digitado pelo usuário
+    var n = document.getElementById("n").value;
+    
+    // Inicializar a sequência com os primeiros dois termos
+    var seq = [0, 1];
+    
+    // Gerar os demais termos da sequência
+    for (var i = 2; i < n; i++) {
+        seq[i] = seq[i-1] + seq[i-2];
+    }
+    
+    // Exibir a sequência na página
+    document.getElementById("sequencia").innerHTML = "Sequência de Fibonacci: " + seq.join(", ");
+}
+</script>
+<body>
+	<h1>Sequência de Fibonacci</h1>
+    <p>Digite o número de termos que deseja visualizar:</p>
+    <input type="text" id="n">
+    <button onclick="Sequenciagerar()">Gerar Sequência</button>
+    <p id="sequencia"></p>
+</body>
+</html>
