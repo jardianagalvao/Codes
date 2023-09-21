@@ -37,6 +37,7 @@ public class Quick_sort {
         array[direita] = temp;
 
         return i + 1; 
+
     }
 
 }
